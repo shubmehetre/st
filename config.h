@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Inconsolata:style=Medium:pixelsize=18:antialias=true:autohint=true";
+static char *font = "DroidSansMono Nerd Font Mono:style=Book:pixelsize=20:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = { "JoyPixels:pixelsize=14:antialias=true:autohint=true" };
@@ -139,7 +139,8 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#2e3440", /* background */
+	/*"#2e3440",*/
+	"#242831",/* background */
 	"#d8dee9", /* foreground */
 };
 
