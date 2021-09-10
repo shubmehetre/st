@@ -955,7 +955,7 @@ xloadfont(Font *f, FcPattern *pattern)
 }
 
 void
-xloadfonts(const char *fontstr, double fontsize)
+xloadfonts(char *fontstr, double fontsize)
 {
 	FcPattern *pattern;
 	double fontval;
