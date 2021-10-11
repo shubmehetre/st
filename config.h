@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DroidSansMono Nerd Font Mono:style=Book:pixelsize=20:antialias=true:autohint=true";
+static char *font = "Source Code Pro:style=Regular:pixelsize=19:antialias=true:autohint=true";
 
 /* Spare fonts */
 static char *font2[] = { "JoyPixels:pixelsize=14:antialias=true:autohint=true" };
@@ -215,6 +215,8 @@ static Shortcut shortcuts[] = {
 	{ CTRSHIFT,             XK_V,           clippaste,      {.i =  0} },
 	{ CTRSHIFT,             XK_K,           zoom,           {.f = +1} },
 	{ CTRSHIFT,             XK_J,           zoom,           {.f = -1} },
+	{ MODKEY,               XK_k,     	kscrollup,      {.i = 1} },
+	{ MODKEY,            	XK_j,   	kscrolldown,    {.i = 1} },
 };
 /*
  * Special keys (change & recompile st.info accordingly)
